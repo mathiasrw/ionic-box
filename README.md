@@ -12,11 +12,13 @@ For iOS developers, Ionic Box won't do much for you right now unless you are hav
 
 To install, download and install [Vagrant](https://www.vagrantup.com/downloads.html) for your platform, then download and install [VirtualBox](http://virtualbox.org/).
 
-Once Vagrant and VirtualBox are installed, you can download the latest release of this GitHub repo, and unzip it. `cd` into the unzipped folder and run:
+Once Vagrant and VirtualBox are installed, please clone this repo, and setup vagrant:
 
 ```bash
-$ vagrant up
-$ vagrant ssh
+git clone https://github.com/driftyco/ionic-box/
+cd ionic-box
+vagrant up
+vagrant ssh
 ```
 
 The username for vagrant is `vagrant` and the password is `vagrant`. 
